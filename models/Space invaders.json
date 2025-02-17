@@ -1,0 +1,6 @@
+{
+	"height" : 300,
+	"material" : "materials/Space invaders.json",
+	"nopadding" : true,
+	"width" : 400
+}
