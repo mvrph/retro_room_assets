@@ -1,0 +1,1303 @@
+{
+	"camera" : 
+	{
+		"center" : "0.00000 0.00000 -1.00000",
+		"eye" : "0.00000 0.00000 0.00000",
+		"up" : "0.00000 1.00000 0.00000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.30000 0.30000 0.30000",
+		"bloom" : false,
+		"bloomhdrfeather" : 0.1,
+		"bloomhdriterations" : 8,
+		"bloomhdrscatter" : 1.619,
+		"bloomhdrstrength" : 2.0,
+		"bloomhdrthreshold" : 1.0,
+		"bloomstrength" : 8.9399996,
+		"bloomthreshold" : 0.86000001,
+		"camerafade" : true,
+		"cameraparallax" : false,
+		"cameraparallaxamount" : 0.5,
+		"cameraparallaxdelay" : 0.1,
+		"cameraparallaxmouseinfluence" : 0.0,
+		"camerapreview" : true,
+		"camerashake" : false,
+		"camerashakeamplitude" : 0.5,
+		"camerashakeroughness" : 1.0,
+		"camerashakespeed" : 3.0,
+		"clearcolor" : "0.00000 0.00000 0.00000",
+		"clearenabled" : true,
+		"farz" : 10000.0,
+		"fov" : 50.0,
+		"hdr" : false,
+		"nearz" : 0.0099999998,
+		"orthogonalprojection" : 
+		{
+			"height" : 2160,
+			"width" : 3840
+		},
+		"skylightcolor" : "0.30000 0.30000 0.30000",
+		"zoom" : 
+		{
+			"user" : "zoom",
+			"value" : 1.0
+		}
+	},
+	"objects" : 
+	[
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 78,
+			"image" : "models/util/fullscreenlayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "----------------------------",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"config" : 
+			{
+				"passthrough" : true
+			},
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/pulse/effect.json",
+					"id" : 56,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"amount" : 0.25,
+								"bounds" : "0 1",
+								"noiseamount" : 1.29,
+								"noisespeed" : 0.17,
+								"phase" : 0.17,
+								"power" : 1,
+								"speed" : 3.6700001,
+								"tinthigh" : "1 1 1",
+								"tintlow" : "1 1 1"
+							},
+							"id" : 58,
+							"textures" : [ null, "util/noise" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 52,
+			"image" : "models/util/composelayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Pulse Game over",
+			"origin" : "1885.15027 1089.43420 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.52625 0.52625 0.52625",
+			"size" : "512.00000 512.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "8",
+					"name" : "game"
+				},
+				"value" : false
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 76,
+			"image" : "models/util/fullscreenlayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "----------------------------",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 -0.10297",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/perspective/effect.json",
+					"id" : 279,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"REPEAT" : 0
+							},
+							"constantshadervalues" : 
+							{
+								"bottom" : 0.11,
+								"left" : 0.0099999998,
+								"right" : -0.0099999998,
+								"top" : 0.050000001
+							},
+							"id" : 280
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 44,
+			"image" : "models/Space invaders.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Space invaders",
+			"origin" : "2315.38403 1448.01636 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.83187 1.08812 1.10328",
+			"size" : "400.00000 300.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "1",
+					"name" : "game"
+				},
+				"value" : false
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 -0.07449",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/perspective/effect.json",
+					"id" : 275,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"REPEAT" : 0
+							},
+							"constantshadervalues" : 
+							{
+								"bottom" : 0.11,
+								"left" : 0.0099999998,
+								"right" : -0.0099999998,
+								"top" : 0.050000001
+							},
+							"id" : 276
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 49,
+			"image" : "models/Donkey Kong.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Donkey Kong",
+			"origin" : "2323.38647 1424.03955 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.67694 0.68367 0.69298",
+			"size" : "500.00000 500.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "3",
+					"name" : "game"
+				},
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 -0.10297",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/perspective/effect.json",
+					"id" : 264,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"REPEAT" : 0
+							},
+							"constantshadervalues" : 
+							{
+								"bottom" : 0.11,
+								"left" : 0.0099999998,
+								"right" : -0.0099999998,
+								"top" : 0.050000001
+							},
+							"id" : 265
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 45,
+			"image" : "models/Street Fighter.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Street Fighter",
+			"origin" : "2328.04346 1446.52722 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.75001 0.91247 0.78102",
+			"size" : "500.00000 352.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "4",
+					"name" : "game"
+				},
+				"value" : false
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 -0.10297",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/perspective/effect.json",
+					"id" : 259,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"REPEAT" : 0
+							},
+							"constantshadervalues" : 
+							{
+								"bottom" : 0.11,
+								"left" : 0.0099999998,
+								"right" : -0.0099999998,
+								"top" : 0.050000001
+							},
+							"id" : 260
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 235,
+			"image" : "models/21cefe646a5f41a69e743a74757a1d5e.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Street Fighter 2",
+			"origin" : "2320.57715 1446.52930 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.79565 0.87834 0.87834",
+			"size" : "512.00000 383.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "5",
+					"name" : "game"
+				},
+				"value" : false
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 -0.12217",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/perspective/effect.json",
+					"id" : 250,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"REPEAT" : 0
+							},
+							"constantshadervalues" : 
+							{
+								"bottom" : 0.11,
+								"left" : 0.0099999998,
+								"right" : -0.0099999998,
+								"top" : 0.050000001
+							},
+							"id" : 253
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 57,
+			"image" : "models/Mario bros.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Mario bros",
+			"origin" : "2318.47510 1447.83057 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.06391 1.18112 1.23854",
+			"size" : "288.00000 252.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "6",
+					"name" : "game"
+				},
+				"value" : false
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 -0.10472",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/perspective/effect.json",
+					"id" : 284,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"REPEAT" : 0
+							},
+							"constantshadervalues" : 
+							{
+								"bottom" : 0.11,
+								"left" : 0.0099999998,
+								"right" : -0.0099999998,
+								"top" : 0.050000001
+							},
+							"id" : 0
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 239,
+			"image" : "models/Legend_of_Zelda-A_Link_to_the_Past_(SNES)_01.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Zelda",
+			"origin" : "2322.03638 1445.44775 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.30999 1.30999 1.73510",
+			"size" : "256.00000 224.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "7",
+					"name" : "game"
+				},
+				"value" : false
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 -0.08727",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/perspective/effect.json",
+					"id" : 296,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"REPEAT" : 0
+							},
+							"constantshadervalues" : 
+							{
+								"bottom" : 0.11,
+								"left" : 0.0099999998,
+								"right" : -0.0099999998,
+								"top" : 0.050000001
+							},
+							"id" : 300
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 286,
+			"image" : "models/tumblr_024c4e766fd84578be84fa1ab553f72e_d802226e_1280.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Car",
+			"origin" : "2326.58569 1454.68518 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.63361 0.79180 0.74703",
+			"size" : "800.00000 600.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "9",
+					"name" : "game"
+				},
+				"value" : false
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 -0.09948",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/perspective/effect.json",
+					"id" : 385,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"REPEAT" : 0
+							},
+							"constantshadervalues" : 
+							{
+								"bottom" : 0.11,
+								"left" : 0.0099999998,
+								"right" : -0.0099999998,
+								"top" : 0.050000001
+							},
+							"id" : 386
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 381,
+			"image" : "models/48cc5658a59a7b251237d4fda62ccd52.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Monke",
+			"origin" : "2319.15796 1446.09253 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.91895 1.48042 0.91895",
+			"size" : "400.00000 224.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "8",
+					"name" : "game"
+				},
+				"value" : false
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 -0.07449",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/tint/effect.json",
+					"id" : 204,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"BLENDMODE" : 0
+							},
+							"constantshadervalues" : 
+							{
+								"alpha" : 1.0,
+								"color" : "1 1 1"
+							},
+							"id" : 205
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/perspective/effect.json",
+					"id" : 130,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"REPEAT" : 0
+							},
+							"constantshadervalues" : 
+							{
+								"bottom" : 0.11,
+								"left" : 0.0099999998,
+								"right" : -0.0099999998,
+								"top" : 0.050000001
+							},
+							"id" : 131
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/blend/effect.json",
+					"id" : 133,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"BLENDMODE" : 0
+							},
+							"constantshadervalues" : 
+							{
+								"multiply" : 1.0
+							},
+							"id" : 134,
+							"textures" : [ null, "util/white" ],
+							"usertextures" : [ null, "newproperty" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 129,
+			"image" : "models/Donkey Kong.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Custom",
+			"origin" : "2323.88672 1430.73792 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.67694 0.68367 0.69298",
+			"size" : "500.00000 500.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "10",
+					"name" : "game"
+				},
+				"value" : false
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 223,
+			"image" : "models/util/fullscreenlayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "----------------------------",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 0.15000001,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/blend/effect.json",
+					"id" : 460,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"BLENDMODE" : 0,
+								"TRANSFORMUV" : 0,
+								"WRITEALPHA" : 0
+							},
+							"constantshadervalues" : 
+							{
+								"alpha" : 1,
+								"blendangle" : 0,
+								"blendoffset" : "0 0",
+								"blendscale" : 0.88,
+								"multiply" : 1
+							},
+							"id" : 461,
+							"textures" : [ null, "retro" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 457,
+			"image" : "models/util/solidlayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Relfection",
+			"origin" : "2405.03101 1505.11389 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.50940 1.50940 1.50940",
+			"size" : "512.00000 512.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 0.23999999,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 297,
+			"image" : "models/12-124385_gorilla-glass-superior-phone-glass-texture.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Sun Glare",
+			"origin" : "2564.79810 1446.22021 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.54776 1.09051 1.00000",
+			"size" : "600.00000 602.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"config" : 
+			{
+				"passthrough" : true
+			},
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/filmgrain/effect.json",
+					"id" : 167,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"exponent" : 1,
+								"scale" : 10,
+								"strength" : 0.38999999
+							},
+							"id" : 168,
+							"textures" : [ null, "util/noise" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 165,
+			"image" : "models/util/composelayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Compose",
+			"origin" : "2337.80933 1450.95044 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.71011 0.71011 0.71011",
+			"size" : "512.00000 512.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 73,
+			"image" : "models/util/fullscreenlayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "----------------------------",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/waterflow/effect.json",
+					"id" : 227,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"phasescale" : 1,
+								"speed" : 0.050000001,
+								"strength" : 0.50999999
+							},
+							"id" : 228,
+							"textures" : 
+							[
+								null,
+								"masks/waterflow_mask_8cfe83fa6c2607509c9b21199045f0008410bde8",
+								"effects/waterflowphase"
+							]
+						}
+					],
+					"visible" : false
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 230,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : 0.0,
+								"perspective" : 0.0,
+								"scale" : 25,
+								"speed" : 1,
+								"strength" : 0.029999999
+							},
+							"id" : 231,
+							"textures" : 
+							[
+								null,
+								"masks/waterwaves_mask_0d2915f817644f5a09051c4dcda2c546e831cac8"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterripple/effect.json",
+					"id" : 237,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"animationspeed" : 0.059999999,
+								"ratio" : 1.0,
+								"ripplestrength" : 0.050000001,
+								"scale" : 1.0,
+								"scrolldirection" : 0.0,
+								"scrollspeed" : 0.0
+							},
+							"id" : 238,
+							"textures" : 
+							[
+								null,
+								"masks/waterripple_mask_42cb95697cc637851a4c5772c3f39b4ed1a32968",
+								"effects/waterripplenormal"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/opacity/effect.json",
+					"id" : 246,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"alpha" : 1.0
+							},
+							"id" : 247,
+							"textures" : [ null, "masks/opacity_mask_842bebb9bb5de2d92c3734a35dd70fd670caea83" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 121,
+			"image" : "models/stars.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Base (No stars)",
+			"origin" : "1920.00000 1080.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "3840.00000 2160.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/waterflow/effect.json",
+					"id" : 318,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"phasescale" : 1,
+								"speed" : 0.050000001,
+								"strength" : 0.50999999
+							},
+							"id" : 319,
+							"textures" : 
+							[
+								null,
+								"masks/waterflow_mask_8cfe83fa6c2607509c9b21199045f0008410bde8",
+								"effects/waterflowphase"
+							]
+						}
+					],
+					"visible" : false
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 335,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : 0.0,
+								"perspective" : 0.0,
+								"scale" : 25,
+								"speed" : 1,
+								"strength" : 0.029999999
+							},
+							"id" : 336,
+							"textures" : 
+							[
+								null,
+								"masks/waterwaves_mask_0d2915f817644f5a09051c4dcda2c546e831cac8"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterripple/effect.json",
+					"id" : 362,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"animationspeed" : 0.059999999,
+								"ratio" : 1.0,
+								"ripplestrength" : 0.050000001,
+								"scale" : 1.0,
+								"scrolldirection" : 0.0,
+								"scrollspeed" : 0.0
+							},
+							"id" : 363,
+							"textures" : 
+							[
+								null,
+								"masks/waterripple_mask_42cb95697cc637851a4c5772c3f39b4ed1a32968",
+								"effects/waterripplenormal"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/opacity/effect.json",
+					"id" : 439,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"alpha" : 1.0
+							},
+							"id" : 440,
+							"textures" : [ null, "masks/opacity_mask_842bebb9bb5de2d92c3734a35dd70fd670caea83" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 119,
+			"image" : "models/retro v12.json",
+			"ledsource" : true,
+			"locktransforms" : false,
+			"name" : "Base",
+			"origin" : "1920.00000 1080.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "3840.00000 2160.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : "stars",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 217,
+			"image" : "models/icky sni.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Sticker",
+			"origin" : "2680.17139 1036.81348 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "235.00000 247.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : "sticker",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 -0.00000 0.03883",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"config" : 
+			{
+				"passthrough" : true
+			},
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/workshop/2084198056/Simple_Audio_Bars/effect.json",
+					"id" : 193,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"RESOLUTION" : 32
+							},
+							"constantshadervalues" : 
+							{
+								"Bar Bounds" : "0 0.15",
+								"Bar Color" : 
+								{
+									"user" : "color",
+									"value" : "0.35686 0.13333 0.77255"
+								},
+								"Bar Count" : 
+								{
+									"user" : "barcount",
+									"value" : 64
+								},
+								"Bar Opacity" : 
+								{
+									"user" : "baropacity",
+									"value" : 0.54000002
+								},
+								"Bar Spacing" : 
+								{
+									"user" : "barspacing",
+									"value" : 0.2
+								}
+							},
+							"id" : 194
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/blurprecise/effect.json",
+					"id" : 226,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"scale" : "0.21 0.21"
+							},
+							"id" : 229
+						},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"scale" : "0.21 0.21"
+							},
+							"id" : 232
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 192,
+			"image" : "models/util/composelayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Visualizer",
+			"origin" : "708.81573 2081.62427 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "-1.00000 1.00000 1.00000",
+			"size" : "990.00000 950.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : "visualizer",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 123,
+			"image" : "models/util/fullscreenlayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "----------------------------",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 242,
+			"instanceoverride" : 
+			{
+				"colorn" : "1.00000 1.00000 1.00000",
+				"id" : 243
+			},
+			"locktransforms" : false,
+			"name" : "Dust motes",
+			"origin" : "1920.00000 1080.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/dust_motes_0.json",
+			"scale" : "1.00000 1.00000 1.00000",
+			"visible" : false
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/pulse/effect.json",
+					"id" : 390,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"AUDIOPROCESSING" : 0
+							},
+							"constantshadervalues" : 
+							{
+								"amount" : 0.5,
+								"audioamount" : 0.25,
+								"audiobounds" : "0.5 1",
+								"bounds" : "0 1",
+								"noiseamount" : 0.11,
+								"noisespeed" : 0.07,
+								"phase" : 0.0,
+								"power" : 1.0,
+								"speed" : 1.25,
+								"tinthigh" : "1.00000 0.00000 1.00000",
+								"tintlow" : "1 1 1"
+							},
+							"id" : 391,
+							"textures" : [ null, "util/noise" ]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "pulse",
+						"value" : true
+					}
+				}
+			],
+			"id" : 388,
+			"image" : "models/util/fullscreenlayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Fullscreen",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 254,
+			"locktransforms" : false,
+			"maxtime" : 5.0,
+			"mintime" : 1.0,
+			"muteineditor" : true,
+			"name" : "Music",
+			"origin" : "0.00000 0.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"playbackmode" : "loop",
+			"scale" : "1.00000 1.00000 1.00000",
+			"sound" : [ "sounds/16-Bit Wave Super Nintendo & Sega Genesis RetroWave Mix.mp3" ],
+			"startsilent" : false,
+			"volume" : 0.5
+		}
+	],
+	"version" : 1
+}
